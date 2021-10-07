@@ -1,0 +1,15 @@
+customvmname √  ~/python_work/EC 601  % python twitter.py               0:50:21
+The sentiment score of the ['Porsche', 'speed']: 
+Sentence 0 have a sentiment score of 0.0
+Sentence 1 have a sentiment score of 0.13636363636363635
+Sentence 2 have a sentiment score of 0.13636363636363635
+Sentence 3 have a sentiment score of 0.13636363636363635
+Sentence 4 have a sentiment score of 0.13636363636363635
+Sentence 5 have a sentiment score of 0.13636363636363635
+Sentence 6 have a sentiment score of 0.0
+Sentence 7 have a sentiment score of 0.13636363636363635
+Sentence 8 have a sentiment score of 0.0
+Sentence 9 have a sentiment score of 0.13636363636363635
+The total sentiment score of the ['Porsche', 'speed']is 0.9545454545454545
+The average sentiment score of the ['Porsche', 'speed']is 0.09545454545454544
+nice product!
