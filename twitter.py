@@ -39,15 +39,18 @@ print(f"The sentiment score of the {keyword}: ")
 #print(tweet_list)
 #print sentence score
 total_score = 0
+i = len(sentiment_score)
 for sentence in range(0,len(sentiment_score)):
     total_score += sentiment_score[sentence]  
+    if sentiment_score[sentence] == 0:
+        i = i - 1
     print(f"Sentence {sentence} have a sentiment score of {sentiment_score[sentence]}")
 
-average_score = total_score / len(sentiment_score)
+average_score = total_score / i
 
 print(f"The total sentiment score of the {keyword}is {total_score}")
 print(f"The average sentiment score of the {keyword}is {average_score}")
-if average_score > 0:
+if average_score > 0.3:
     print("nice product!")
 else:
     print("not recommended product!")
