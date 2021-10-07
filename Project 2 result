@@ -10,6 +10,6 @@ Sentence 6 have a sentiment score of 0.0
 Sentence 7 have a sentiment score of 0.13636363636363635
 Sentence 8 have a sentiment score of 0.0
 Sentence 9 have a sentiment score of 0.13636363636363635
-The total sentiment score of the ['Porsche', 'speed']is 0.9545454545454545
-The average sentiment score of the ['Porsche', 'speed']is 0.09545454545454544
+The total sentiment score of the ['Porsche, speed']is 0.9545454545454545
+The average sentiment score of the ['Porsche, speed']is 0.13636363636363635
 nice product!
