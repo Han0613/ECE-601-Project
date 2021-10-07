@@ -33,7 +33,21 @@ for tweet in tweets:
     analysis = TextBlob(tweet.text)
     sentiment_score.append(analysis.sentiment.polarity)
 
+#output
+print(f"The sentiment score of the {keyword}: ")
+
 #print(tweet_list)
-# print sentence score
+#print sentence score
+total_score = 0
 for sentence in range(0,len(sentiment_score)):
+    total_score += sentiment_score[sentence]  
     print(f"Sentence {sentence} have a sentiment score of {sentiment_score[sentence]}")
+
+average_score = total_score / len(sentiment_score)
+
+print(f"The total sentiment score of the {keyword}is {total_score}")
+print(f"The average sentiment score of the {keyword}is {average_score}")
+if average_score > 0:
+    print("nice product!")
+else:
+    print("not recommended product!")
