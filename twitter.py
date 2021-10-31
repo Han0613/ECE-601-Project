@@ -3,6 +3,7 @@
 from textblob import TextBlob
 import tweepy
 import pandas as pd
+import sys
 #from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # declare the keys and secrets
@@ -20,8 +21,8 @@ twitter_api = tweepy.API(auth)
 
 def sentiment_analyze(usr_input):
     # keyword and number of tweets
-    keyword = usr_input[0:-1]
-    tweet_num = usr_input[-1]
+    keyword = usr_input[:-1]
+    tweet_num = int(usr_input[-1])
 
     # get tweets
     tweets = tweepy.Cursor(twitter_api.search_tweets, q=keyword, lang="en").items(tweet_num)
