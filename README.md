@@ -17,6 +17,9 @@
 -	Grade the tweets for each related comments about products and performance.
 -	Find the average score for that product.
 
-
+## Test Bench
+- Test the limit of keywords input
+- Check the special characters of inputs
+- Make sure the last num of inputs is digit.
 
 
