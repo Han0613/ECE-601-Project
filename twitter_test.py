@@ -1,3 +1,7 @@
+# The test bench will the limit of keywords input
+# And check the special characters of inputs
+# And make sure the last num of inputs is digit.
+
 import sys
 import string
 import twitter
@@ -16,6 +20,7 @@ def special_char():
         punctuation_set = set(string.punctuation)
         assert not string_set.intersection(punctuation_set),"Special characters are found!"
 
+# test the last number search number of tweets
 def tweet_num():
     assert usr_input[-1].isnumeric(),"Not a number!"
 
